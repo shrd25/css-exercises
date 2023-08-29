@@ -1,0 +1,19 @@
+.odd {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: #ffc0cb;
+}
+
+.adjust-font-size { /* originally called '.odd.adjust-font-size' but that syntax means chaining 'odd' and 'adjust-font-size' with shared values; instead they are two separate classes so we only need to call 'adjust-font-size' one to set value to 24px */
+    font-size: 24px;
+}
+
+#id-1 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#id-2 {
+    background-color: #90ee90;
+    /* font-size: 24px; was used originally. I disabled it as we already have class 'adjust-font-size' that serves the same function. */
+    font-weight: bold;
+}
