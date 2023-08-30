@@ -1,0 +1,24 @@
+/* Solution implemented using class .text, only children of .container
+.container .text {
+    background-color: hsl(60, 100%, 50%);
+    color: hsl(0, 100%, 50%, 0.6);
+    font-size: 20px;
+    text-align: center;
+}*/
+
+/* Solution implemented using type, only <p> children of <div> 
+div p {
+    background-color: hsl(60, 100%, 50%);
+    color: hsl(0, 100%, 50%, 0.6);
+    font-size: 20px;
+    text-align: center;   
+}*/
+
+/* Solution implemented using type AND class, only .text children of <div>
+    could also be .container p */
+div .text {
+    background-color: hsl(60, 100%, 50%, 0.6);
+    color: hsl(0, 100%, 50%);
+    font-size: 20px;
+    text-align: center; 
+}
